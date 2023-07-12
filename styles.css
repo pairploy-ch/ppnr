@@ -1,0 +1,138 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;1,100;1,200;1,600&family=Prompt:wght@300&display=swap');
+
+
+body {
+    font-family: 'Kanit', sans-serif !important;
+}
+
+a{
+   text-decoration: none !important;
+}
+
+a:hover {
+   text-decoration: underline !important;
+}
+
+a li {
+   color: #fff;
+}
+
+nav {
+   padding: 10px !important;
+}
+.nav-link {
+    color: #fff !important;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff !important;
+  }
+
+  .btn-menu {
+    background: #F8C80B ;
+    border-radius: 0 ;
+    border: 0;
+    padding: 30px;
+    flex: 1;
+    border-right: 3px solid #DBAF00;
+  }
+
+  .btn-menu:hover{
+   background: #FDD947;
+  }
+
+ .text-title {
+    color: #0F66A4;
+    font-weight: bold;
+    border-bottom: 8px solid #F8C80B;
+    padding: 2px;
+    flex: 1;
+ }
+
+ .text-title-2 {
+    color: #0F66A4;
+    font-weight: bold;
+    padding: 2px;
+    flex: 1;
+ }
+
+ .img-news-lastest {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+
+ .card-news-lastest {
+    width: 100%;
+    flex-wrap: wrap;
+    cursor: pointer;
+    color: #0F66A4;
+ }
+
+ .img-news {
+    width: 100%;
+    object-fit: cover;
+   border-radius: 5px;
+  }
+
+ .card-news {
+    flex: 1;
+    flex-wrap: wrap;
+    cursor: pointer;
+    color: #0F66A4;
+    margin: 0px 20px;
+ }
+
+ .card-activities {
+    border-radius: 9px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 0px 20px;
+    color: #0F66A4;
+ }
+
+ .img-act {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+ }
+
+ .card-2 {
+    border-radius: 11px;
+    background: linear-gradient(0deg, #EEEFF1 0%, #EEEFF1 100%), #EEEFF1;
+    padding: 20px;
+    flex: 1;
+    align-items: center;
+ }
+ 
+ .img-place {
+   width: 100%;
+   /* height: 180px !important; */
+   object-fit: cover;
+   border-radius: 9px;
+}
