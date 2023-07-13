@@ -13,6 +13,10 @@ a:hover {
    text-decoration: underline !important;
 }
 
+.row>* {
+   padding: 0 !important;
+}
+
 a li {
    color: #fff;
 }
@@ -135,4 +139,23 @@ nav {
    /* height: 180px !important; */
    object-fit: cover;
    border-radius: 9px;
+}
+
+.card-news-page {
+   object-fit: cover; 
+   height: 100%;
+   overflow: hidden;
+}
+
+
+.cursor {
+   cursor: pointer;
+}
+
+.card-news-page:hover {
+   transform: scale(1.2);
+}
+
+.img-overlay {
+   opacity: 40%;
 }
