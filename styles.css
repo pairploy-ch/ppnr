@@ -70,7 +70,7 @@ nav {
  .text-title {
     color: #0F66A4;
     font-weight: bold;
-    border-bottom: 8px solid #F8C80B;
+    border-bottom: 5px solid #F8C80B;
     padding: 2px;
     flex: 1;
  }
@@ -158,4 +158,55 @@ nav {
 
 .img-overlay {
    opacity: 40%;
+}
+
+.btn-yellow {
+   background-color: #FDD947 !important;
+}
+
+.btn-yellow:hover {
+   background-color: #F8C80B !important;
+}
+
+.waiting-status {
+   background-color: #FDD947;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.success-status {
+   background-color: #4FC978;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   color: #FFF;
+   border-radius: 10px;
+}
+
+.unsuccess-status {
+   background-color: #ff0000;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   color: #fff;
+   border-radius: 10px;
+   
+}
+
+.modal-dialog{
+   width: 40% !important;
+   max-width: 40% !important
+}
+
+.card-login {
+   border-radius: 9px;
+   border: 1px solid #DDD;
+   background: #FFF;
+   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+   flex-wrap: wrap;
+   margin: 0px 20px;
+   color: #0F66A4;
+   width: 30%;
 }
